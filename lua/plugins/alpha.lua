@@ -191,11 +191,11 @@ return {
 
       dashboard.section.buttons.val = {
         dashboard.button("n", "  New file", "<cmd>ene<CR>"),
-        dashboard.button(
-          "SPC q l",
-          "  Restore last session",
-          [[<cmd>lua require("persistence").load({ last = true })<CR>]]
-        ),
+--        dashboard.button(
+--          "SPC q l",
+--          "  Restore last session",
+--          [[<cmd>lua require("persistence").load({ last = true })<CR>]]
+--        ),
         dashboard.button("SPC f r", "  Recent files", "<cmd>Telescope oldfiles<CR>"),
         dashboard.button("SPC f f", "  Find file", "<cmd>Telescope find_files<CR>"),
         dashboard.button("SPC f p", "  Projects", "<cmd>Telescope projects<CR>"),
